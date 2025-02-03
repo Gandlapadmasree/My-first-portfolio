@@ -1,0 +1,151 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GandlaPadmasree Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<style>
+    body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #E0E7FF;
+        }
+
+        header {
+            background-color:black;
+            color: #fff;
+            padding: 20px 0;
+            text-align: center;
+        }
+
+        nav {
+            background-color:blue;
+            text-align: center;
+            padding: 10px 0;
+            color:white;
+        }
+
+        nav ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        nav ul li {
+            display: inline;
+            margin: 0 15px;
+        }
+
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        section {
+            margin: 20px;
+            padding: 20px;
+            background: white;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            color: black;
+        }
+
+        section h2 {
+            color: #461db8;
+            text-decoration:underline;
+            text-decoration-color:rgb(26, 26, 129);
+        }
+
+        .project {
+            margin-bottom: 15px;
+        }
+
+        footer {
+            background-color: #1E293B;
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+            position: relative;
+            width: 100%;
+            bottom: 0;
+        }
+
+        a {
+            color: #0066cc;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        #about img {
+            display: block;
+            float: center;
+            margin: 1px auto;
+            width: 150px;
+            border-radius: 50%;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+
+        }
+</style>
+<body>
+    <header>
+        <h1> Gandla Padmasree</h1>
+        <p>Full Stack Developer</p>
+    </header>
+    
+    <nav>
+        <ul>
+            <li><a href="#about">About Me</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+    
+    <section id="about">
+        <h2>About Me</h2>
+        <img src="IMG_20240825_202037.jpg" alt="">
+        <p>
+          Hello, I'm Gandla Padmasree, a B.Tech third-year student at SVCE. I'm enthusiastic about learning new technologies and have completed training in Python full-stack development. I'm eager to enhance my skills and explore innovative solutions in the tech world.       
+        </p>
+        <section>
+          <h2>Education</h2>
+          <ul>
+            <li>B.tech:Sri Venkateswara College Of Engineering,Tirupati(2022-2026)</li>
+            <li>Intermediate:Vikram Junior College,Srikalahasti(2020-2022)</li>
+            <li>SSC:Om Naryana English Medium High School,Yerpedu(2020)</li>
+          </ul>
+        </section>
+      </section>
+    <section id="skills">
+        <h2>Skills</h2>
+        <ul>
+            <li>Python</li>
+            <li>HTML & CSS</li>
+            <li>JavaScript</li>
+            <li>SQL</li>
+        </ul>
+    </section>
+    
+    <section id="projects">
+        <h2>Projects</h2>
+        <div class="project">
+            <h3>Donate the Food to Homeless People</h3>
+            <p>This project aims to connect food donors with homeless individuals, ensuring surplus food reaches those in need instead of going to waste. Donors can register and list available food, while volunteers or NGOs help distribute it. With a simple and efficient system, this initiative promotes social responsibility and works towards a hunger-free community.</p>
+          </div>     
+    </section>   
+    <section id="contact">
+        <h2>Contact</h2>
+        <p>Email: <a href="mailto:gandlapadmasri0811@gmail.com">gandlapadmasri0811@gmail.com</a></p>
+        <p> Phone: <a href="tel:+917569355957">+91 7569355957</a></p>
+        <p>Linkedln: <a href="https://www.linkedin.com/in/gandla-padmasree-673817302?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank">padmasri</a></p>
+    </section>
+</body>
+</html>
